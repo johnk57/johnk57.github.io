@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Bandit-Hints</title>
+  </head>
+  <body><span style="font-family: Courier New,Courier,monospace;"> </span>
+    <h1><span style="font-family: Courier New,Courier,monospace;">OverTheWire:
+        Bandit</span></h1>
+    <p><span style="font-family: Courier New,Courier,monospace;">Open a <strong>Google
+          Doc</strong> where you can save the passwords to each level.<br>
+      </span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Open <strong>Ubuntu</strong>
+        and log in.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Open <strong>Bandit</strong>:
+        <a href="%20https://overthewire.org/wargames/bandit/bandit0.html" target="_blank">
+          https://overthewire.org/wargames/bandit/bandit0.html</a></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"><br>
+      </span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Position both
+        windows on your screen side-by-side so you can see them, like this:</span></p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="bandit-ubuntu-screen.png"
+      alt="Bandit Ubuntu screen" title="bandit-ubuntu-screen" style="width: 386px; height: 215px;"><br>
+    <p><span style="font-family: Courier New,Courier,monospace;"><br>
+      </span></p>
+    <h1><span style="font-family: Courier New,Courier,monospace;">Hints for Each
+        Level</span></h1>
+    <p><u><span style="font-family: Courier New,Courier,monospace;"><br>
+        </span></u></p>
+    <p><u><span style="font-family: Courier New,Courier,monospace;">Level 0</span></u></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Read the Level
+        Goal.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Log in to the
+        level:</span></p>
+    <p style="background-color: black;"><span style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">ssh
+          bandit0@bandit.labs.overthewire.org -p2220</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Use the
+        password they give you in the Level Goal.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"><br>
+      </span></p>
+    <p><u><span style="font-family: Courier New,Courier,monospace;">Level 0
+          --&gt; Level 1</span></u></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Read the Level
+        Goal.</span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">Use
+        <strong>cat</strong> - this one is easy!</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Save the
+        password in your Google Doc.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Exit this level
+        with the command:</span></p>
+    <p style="background-color: black;"><span style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">exit</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"><br>
+      </span></p>
+    <p><br>
+      <u><span style="font-family: Courier New,Courier,monospace;">Level 1
+          --&gt; Level 2</span></u></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Read the Level
+        Goal.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Log in to Level
+        1:<br>
+      </span></p>
+    <p style="background-color: black;"><span style="font-family: Courier New,Courier,monospace;"></span><span
+        style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">ssh
+          bandit1@bandit.labs.overthewire.org -p2220</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">...use the
+        password you found in the last level.<br>
+      </span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">This
+        one is a little tricky, because the filename they give you for the
+        location of the next password makes it difficult to cat. Try the cat
+        command on it, but it won't work correctly because cat thinks you're
+        trying to indicate an option.<br>
+      </span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">Hint:
+        <br></span></p>
+    <ul style="margin-left: 40px;">
+      <li><span style="font-family: Courier New,Courier,monospace;">Check out <strong>page
+            35</strong> of the "Linux Basics for Hackers" packet. <br>
+        </span></li>
+      <li><span style="font-family: Courier New,Courier,monospace;">At the top
+          of that page it talks about adding <strong>two special characters</strong>
+          before a filename to reference a file in the current directory.</span></li>
+      <li><span style=" font-family: Courier New,Courier,monospace;">So use the
+          <strong>cat</strong> command on the file in Bandit, but add those two
+          special characters before the filename.</span></li>
+    </ul>
+    <p><span style="font-family: Courier New,Courier,monospace;">When you find
+        it, save the next password in your Google Doc.</span> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Exit this level
+        with the command:</span></p>
+    <p style="background-color: black;"><span style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">exit</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"><br>
+      </span></p>
+    <p><u><span style="font-family: Courier New,Courier,monospace;">Level 2
+          --&gt; Level 3</span></u> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Read the Level
+        Goal.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Log in to Level
+        2:<br>
+      </span></p>
+    <p style="background-color: black;"><span style="font-family: Courier New,Courier,monospace;"></span><span
+        style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">ssh
+          bandit2@bandit.labs.overthewire.org -p2220</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">...use the
+        password you found in the last level.</span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">Since
+        the filename has spaces in it, you can't just type it in after cat.</span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">Hint:
+        Just type the first few letters and hit <strong>tab</strong>.<br>
+      </span></p>
+    <p><br>
+      <span style="font-family: Courier New,Courier,monospace;">When you find
+        it, save the next password in your Google Doc.</span> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Exit this level
+        with the command:</span></p>
+    <p style="background-color: black;"><span style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">exit</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"></span></p>
+    <p><br>
+    </p>
+    <p><br>
+      <u><span style="font-family: Courier New,Courier,monospace;">Level 3
+          --&gt; Level 4</span></u> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Read the Level
+        Goal.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Log in to Level
+        3:<br>
+      </span></p>
+    <p style="background-color: black;"><span style="font-family: Courier New,Courier,monospace;"></span><span
+        style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">ssh
+          bandit3@bandit.labs.overthewire.org -p2220</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">...use the
+        password you found in the last level.</span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">This
+        level involves a hidden file! Go to the directory in the Level Goal
+        (with <strong>cd</strong>) and try to view any files there (with <strong>ls</strong>).<br>
+      </span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">Hint:
+        The way to view hidden files with ls is described on <strong>page 8</strong>
+        of the "</span><span style="font-family: Courier New,Courier,monospace;">Linux
+        Basics for Hackers" packet.</span></p>
+    <p><br>
+      <span style="font-family: Courier New,Courier,monospace;">When you find
+        it, save the next password in your Google Doc.</span> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Exit this level
+        with the command:</span></p>
+    <p style="background-color: black;"><span style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">exit</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"></span></p>
+    <p><br>
+    </p>
+    <p><br>
+      <u><span style="font-family: Courier New,Courier,monospace;">Level 4
+          --&gt; Level 5</span></u> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Read the Level
+        Goal.</span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Log in to Level
+        4:<br>
+      </span></p>
+    <p style="background-color: black;"><span style="font-family: Courier New,Courier,monospace;"></span><span
+        style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">ssh
+          bandit4@bandit.labs.overthewire.org -p2220</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">...use the
+        password you found in the last level.</span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">For
+        now just look through all the files one at a time. <br>
+      </span></p>
+    <p style="margin-left: 40px;"><span style="font-family: Courier New,Courier,monospace;">Next
+        time we talk, I'll show you a special command to find a <strong>human-readable</strong>
+        file automatically.<br>
+      </span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;">When you find
+        it, save the next password in your Google Doc.</span> </p>
+    <p><span style="font-family: Courier New,Courier,monospace;">Exit this level
+        with the command:</span></p>
+    <p style="background-color: black;"><span style="color: #33ff33;"><span style="font-family: Courier New,Courier,monospace;">exit</span></span></p>
+    <p><span style="font-family: Courier New,Courier,monospace;"></span></p>
+    <p><br>
+    </p>
+    <br>
+    <p><span style="font-family: Courier New,Courier,monospace;"></span></p>
+    <span style="font-family: Courier New,Courier,monospace;"> </span>
+  </body>
+</html>
